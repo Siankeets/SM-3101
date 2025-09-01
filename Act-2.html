@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+IMPORTANT NOTICE!
+
+THE SHOWS AND FILMS USED HERE ARE OWNED BY SEVERAL COMPANIES AND ARE USED FOR EDUCATIONAL PURPOSES ONLY!
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.8">
+    <title>Activity 2</title>
+    <style>
+
+        td {
+            background-color: black;
+            color: white;
+        }
+
+        td img {
+            max-width: 200px;
+            max-height: 200px;
+            object-fit: fill;
+            display: block;
+            margin: auto;
+        }
+
+        .kiki-img {
+            max-width: 200px; 
+            max-height: 200px;
+        }
+
+        .small-img {
+            max-width: 80px;
+            max-height: 120px;
+            object-fit: fill;
+        }
+        
+        .smaller-img {
+            max-width: 40px;
+            max-height: 300px;
+            object-fit: fill;
+        }
+
+         .medium-img {
+            max-width: 40px;
+            max-height: 300px;
+            object-fit: contain;
+        }
+
+        .howl-img{
+            max-width: 500px;
+            max-height: 600px;
+            object-fit: fill;
+        }
+    </style>
+</head>
+
+<body style="background-image: url(images/howl_bg.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: center; margin: 0;">
+    <!-- main -->
+    <div>
+        <table border="1" cellspacing="0" cellpadding="0" 
+               style="margin-left:auto; margin-right:auto;">
+
+            <!-- header row -->
+            <tr>
+                <td colspan="4" style="text-align: center; font-weight: bold;">
+                <h1>My Top Animated Films!</h1>
+                </td>
+            </tr>
+
+            <tr>
+                <td><img src="images/totoro.jpg" alt="totoro" title="My Neighbour Totoro"></td>
+                <td><img src="images/ponyo.jpg" alt="ponyo" title="Ponyo"></td>
+                <td><img src="images/grave.jpg" alt="grave_of_the_fireflies" title="Grave of the Fireflies"></td>
+                <td><img src="images/kiki.jpg" alt="kiki" class="kiki-img" title="Kiki's Delivery Service"></td>
+            </tr>
+
+            <tr>
+                <td><img src="images/arrietty.jpg" alt="arrietty" title="Arrietty"></td>
+                <td><img src="images/violet.jpg" alt="violet" title="Violet Evergarden"></td>
+                <td rowspan="2" colspan="2"><img src="images/howl.jpg" alt="howl" title="Howl's Moving Castle" class="howl-img"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <!-- nested table, smaller images  -->
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td><img src="images/boy_and_the_heron.jpg" alt="boy_and_the_herons" title="The Boy and the Heron" class="smaller-img"></td>
+                            <td><img src="images/p.kaguya.jpg" alt="p.kaguya" class="smaller-img" title="The Tale of Princess Kaguya"></td>
+                            <td rowspan="2" colspan="2"><img src="images/maquia.jpg" alt="maquia" title="Maquia" class="small-img"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/mr.fox.jpg" alt="mr.fox" title="Fantastic Mr.Fox" class="smaller-img"></td>
+                            <td><img src="images/robinsons.jpg" alt="robinsons" title="Meet the Robinsons" class="smaller-img"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/tfath.jpg" alt="tfath" title="The Fox and the Hound" class="smaller-img"></td>
+                            <td><img src="images/mitchels.jpg" alt="mitchels" title="The Mitchel's vs the World" class="smaller-img"></td>
+                            <td><img src="images/castle.jpg" alt="castle" title="The Castle in the Sky" class="smaller-img"></td>
+                            <td><img src="images/wind.jpg" alt="wind" title="The Wind Rises" class="smaller-img"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" rowspan="2"><img src="images/shrek.jpg" alt="shrek" title="Shrek" class="small-img"></td>
+                            <td><img src="images/wall-e.jpg" alt="wall-e" title="Wall-E" class="smaller-img"></td>
+                            <td><img src="images/el_dorado.jpg" alt="el_dorado" title="The Road to El Dorado" class="smaller-img"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/tbol.jpg" alt="tbol" title="The Book of Life" class="smaller-img"></td>
+                            <td><img src="images/new_groove.jpg" alt="new_groove" title="The Emperor's New Groove" class="smaller-img"></td>
+                        </tr>
+                    </table>
+                </td>
+
+                <td>
+                   <table border="1" cellspacing="0" cellpadding="5" width="100%">
+                        <tr>
+                            <td><img src="images/a_silent_voice.jpg" alt="a_silent_voice" title="A Silent Voice" class="medium-img"></td>
+                            <td><img src="images/josee.jpg" alt="josee" title="Josee, the Tiger, and the Fish" class="medium-img"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/iwteyp.jpg" alt="iwteyp" title="I want to eat your pancreas" class="medium-img"></td>
+                            <td><img src="images/your_name.jpg" alt="your_name" title="Your Name" class="medium-img"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
